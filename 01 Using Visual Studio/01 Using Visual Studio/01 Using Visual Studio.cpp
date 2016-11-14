@@ -21,7 +21,7 @@ int main()
  
  float money;
 
- cout << "How much money do your have? ";
+ cout << "How much money do you have? ";
  cin >> money;
  cout << "You have $" << money << " on you!" << endl;
 
