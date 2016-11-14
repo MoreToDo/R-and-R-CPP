@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream> // Input - Output library
+#include <string> // this is used to create strings of text
 using namespace std; // Creates std code for all lines of C++ coding
 
 int main()
@@ -24,6 +25,11 @@ int main()
  cout << "How much money do you have? ";
  cin >> money;
  cout << "You have $" << money << " on you!" << endl;
+
+ cout << "What is your name? ";
+ string name;
+ cin >> name;
+ cout << "Hello, " << name << "! Nice to meet you." << endl;
 
    system("pause");
     return 0;
