@@ -18,6 +18,12 @@ int main()
    cout << "How old are you? ";
    cin >> age;
    cout << "You are " << age << " years old" << endl;
+ 
+ float money;
+
+ cout << "How much money do your have? ";
+ cin >> money;
+ cout << "You have $" << money << " on you!" << endl;
 
    system("pause");
     return 0;
