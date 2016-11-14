@@ -24,7 +24,7 @@ int main()
 
  cout << "How much money do you have? ";
  cin >> money;
- cout << "You have $" << money << " on you!" << endl;
+ cout << "You have $" << money << " on you! Yes you can now buy something awesome!!" << endl;
 
  cout << "What is your name? ";
  string name;
