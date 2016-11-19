@@ -31,7 +31,7 @@ int main()
  cin >> name;
  cout << "Hello, " << name << "! Nice to meet you." << endl;
 
-   system("pause");
+   break;
     return 0;
 }
 
